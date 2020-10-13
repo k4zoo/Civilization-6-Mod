@@ -408,8 +408,8 @@ Wonders enabled:
 			{
 				"name": "Foreign Trade",
 				"uniques": [
-"Units enabled:
-* Trader (Can construct roads, Movement: 4)",
+//"Units enabled:
+//* Trader (Can construct roads, Movement: 4)",
 					"[+2 Gold] from each Trade Route","Culture cost of adopting new Policies reduced by [25]%"],
 				"requires": ["Code of Laws"],
 				"row": 3,

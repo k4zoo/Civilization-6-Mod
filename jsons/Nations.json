@@ -389,6 +389,8 @@
 		"outerColor": [21,108,49],
 		"innerColor": [254,129,19],
 		"uniqueName": "Pearl of the Danube",
+		"uniqueText": " +50% for districts and buildings in cities built along a river.
+		",
 		"cities": ["Buda","Debrecen","Esztergom","Pécs","Pest","Eger","Tahiti","Miskolc","Szeged","Győr",
 			"Székesfehérvár","Óbuda","Kőszeg","Tatabánya","Kolozsvár","Diósgyőr","Kiritimati","Mohács","Tata","Szolnok",
 			"Kassa","Kecskemét","Szombathely","Simontornya","Nyíregyháza","Sárvár","Sopron","Csesznek","Zágráb","Temesvár","Nagyvázsony",

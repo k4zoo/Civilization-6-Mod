@@ -7,7 +7,7 @@
         "cost": -1,
         "requiredTech": "null",
         "uniques": ["Will not be displayed in Civilopedia"],
-    }
+    },
     {
         "name": "Macedon Bonus",
         "uniqueTo": "Macedon",
@@ -16,7 +16,16 @@
         "providesFreeBuilding": "~l1",
         "uniques": ["Can only be built in annexed cities","Free Technology","Free Social Policy",
             "Will not be displayed in Civilopedia"]
-    }
+    },
+    {
+        "name": "Hungary Bonus",
+        "uniqueTo": "Hungary",
+        "cost": -1,
+        "cannotBeBuiltWith": "~l1",
+        "providesFreeBuilding": "~l1",
+        "uniques": ["Must be on [River]","+[50]% production when building [Buildings] in this city",
+            "Will not be displayed in Civilopedia"]
+    },
     {
         "name": "Zeus Bonus",
         "isNationalWonder": true,
@@ -52,6 +61,9 @@
 
 	{
 		"name": "City Center",
+        "cityStrength": 10,
+        "cityHealth": 100,
+        "uniques": ["Remove extra unhappiness from annexed cities"],
 		"cost": -1
 	},
 	{
@@ -867,6 +879,7 @@
         "name": "Ancient Walls",
         "cost": 80,
         "cityHealth": 100,
+        "cityStrength": 10,
         "requiredBuilding": "City Center",
 		"uniques": ["Cannot be purchased","+1 Culture once Conservation is adopted"],
         "requiredTech": "Masonry"
@@ -1112,7 +1125,8 @@
         "name": "Medieval Walls",
         "cost": 220,
         "cityHealth": 100,
-        "requiredBuilding": "City Center",
+        "cityStrength": 10,
+        "requiredBuilding": "Ancient Walls",
         "uniques": ["Cannot be purchased"],
         "requiredTech": "Castles"
     }, 
@@ -1165,7 +1179,8 @@
         "name": "Renaissance Walls",
         "cost": 300,
         "cityHealth": 100,
-        "requiredBuilding": "City Center",
+        "cityStrength": 10,
+        "requiredBuilding": "Medieval Walls",
         "uniques": ["Cannot be purchased","+3 Culture once Conservation is adopted"],
         "requiredTech": "Siege Tactics"
     }, 
@@ -1176,7 +1191,8 @@
         "cost": 260,
         "culture": 5,
         "cityHealth": 200,
-        "requiredBuilding": "City Center",
+        "cityStrength": 10,
+        "requiredBuilding": "Medieval Walls",
         "uniques": ["Cannot be purchased","+3 Culture once Conservation is adopted"],
         "requiredTech": "Siege Tactics"
     }, 

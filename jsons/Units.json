@@ -1090,7 +1090,7 @@
 	},
 	{
 		"name": "Redcoat",
-		"uniqueTo": "France",
+		"uniqueTo": "England",
 		"unitType": "Melee",
 		"movement": 2,
 		"strength": 65,
