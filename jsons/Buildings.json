@@ -110,7 +110,7 @@
         "science": 6,
         "greatPersonPoints": {"science": 1},
         "maintenance": 1,
-        "uniques": ["[+1 Food] from [Farn] tiles in this city","[+1 Science] from [Mine] tiles in this city",
+        "uniques": ["[+1 Food] from [Farm] tiles in this city","[+1 Science] from [Mine] tiles in this city",
         	"Cost increases by [10] per owned city"],
         "requiredTech": "Writing"
     },
