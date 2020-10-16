@@ -4,9 +4,37 @@
 
     {
         "name": "~l1",
+        "isNationalWonder": "true",
         "cost": -1,
         "requiredTech": "null",
         "uniques": ["Will not be displayed in Civilopedia"],
+    },
+    {
+        "name": "Lighthouse Bonus",
+        "isNationalWonder": true,
+        "cost": -1,
+        "requiredTech": "null",
+        "uniques": ["New [WaterMelee] units start with [15] Experience in this city","New [WaterRanged] units start with [15] Experience in this city",
+            "New [WaterSubmarine] units start with [15] Experience in this city","New [WaterAircraftCarrier] units start with [15] Experience in this city",
+            "Will not be displayed in Civilopedia"]
+    },
+    {
+        "name": "Shipyard Bonus",
+        "isNationalWonder": true,
+        "cost": -1,
+        "requiredTech": "null",
+        "uniques": ["New [WaterMelee] units start with [15] Experience in this city","New [WaterRanged] units start with [15] Experience in this city",
+            "New [WaterSubmarine] units start with [15] Experience in this city","New [WaterAircraftCarrier] units start with [15] Experience in this city",
+            "Will not be displayed in Civilopedia"]
+    },
+    {
+        "name": "Seaport Bonus",
+        "isNationalWonder": true,
+        "cost": -1,
+        "requiredTech": "null",
+        "uniques": ["New [WaterMelee] units start with [15] Experience in this city","New [WaterRanged] units start with [15] Experience in this city",
+            "New [WaterSubmarine] units start with [15] Experience in this city","New [WaterAircraftCarrier] units start with [15] Experience in this city",
+            "Will not be displayed in Civilopedia"]
     },
     {
         "name": "Macedon Bonus",
@@ -74,7 +102,7 @@
 		"maintenance": 1,
 		"uniques": ["[+2 Science] from [Geothermal Fissure] tiles in this city",
 			"[+2 Science] from [Reef] tiles in this city","[+1 Science] from [Mountain] tiles in this city",
-			"[+1 Science] from [Jungle] tiles in this city","Cost increases by [20] per owned city"],
+			"[+1 Science] from [Jungle] tiles in this city","Cost increases by [10] per owned city"],
 		"requiredTech": "Writing"
 	},
     {
@@ -86,7 +114,7 @@
         "maintenance": 1,
         "uniques": ["[+2 Science] from [Geothermal Fissure] tiles in this city",
             "[+2 Science] from [Reef] tiles in this city","[+1 Science] from [Mountain] tiles in this city",
-            "[+1 Science] from [Jungle] tiles in this city","Cost increases by [20] per owned city",
+            "[+1 Science] from [Jungle] tiles in this city","Cost increases by [10] per owned city",
             "Will not be displayed in Civilopedia"],
         "requiredTech": "Writing"
     },
@@ -99,7 +127,7 @@
         "greatPersonPoints": {"science": 1},
         "maintenance": 1,
         "uniques": ["[+1 Science] from [Plantation] tiles in this city",
-            "[+1 Science] from [Farm] tiles in this city","Cost increases by [10] per owned city"],
+            "[+1 Science] from [Farm] tiles in this city","Cost increases by [5] per owned city"],
         "requiredTech": "Writing"
     },
     {
@@ -111,7 +139,7 @@
         "greatPersonPoints": {"science": 1},
         "maintenance": 1,
         "uniques": ["[+1 Food] from [Farm] tiles in this city","[+1 Science] from [Mine] tiles in this city",
-        	"Cost increases by [10] per owned city"],
+        	"Cost increases by [5] per owned city"],
         "requiredTech": "Writing"
     },
 	{
@@ -120,7 +148,7 @@
 		"culture": 2,
 		"maintenance": 1,
 		"uniques": ["[+1 Culture] from [Mountain] tiles in this city",
-			"[+1 Culture] from [Forest] tiles in this city","Cost increases by [20] per owned city"],
+			"[+1 Culture] from [Forest] tiles in this city","Cost increases by [10] per owned city"],
 		"requiredTech": "Astrology"
 	},
     {
@@ -130,7 +158,7 @@
         "culture": 2,
         "maintenance": 1,
         "uniques": ["[+1 Culture] from [Mountain] tiles in this city",
-            "[+1 Culture] from [Forest] tiles in this city","Cost increases by [20] per owned city",
+            "[+1 Culture] from [Forest] tiles in this city","Cost increases by [10] per owned city",
             "Will not be displayed in Civilopedia"],
         "requiredTech": "Astrology"
     },
@@ -144,7 +172,7 @@
 		"maintenance": 1,
 		"uniques": ["Culture and Gold costs of acquiring new tiles reduced by 25% in this city",
 			"[+1 Culture] from [Mountain] tiles in this city","[+1 Culture] from [Forest] tiles in this city",
-			"Cost increases by [10] per owned city"],
+			"Cost increases by [5] per owned city"],
 		"requiredTech": "Astrology"
 	},
     {
@@ -153,7 +181,7 @@
         "culture": 3,
         "greatPersonPoints": {"culture": 1},
         "maintenance": 1,
-        "uniques": ["[+1 Culture] from every Wonder","Cost increases by [20] per owned city",
+        "uniques": ["[+1 Culture] from every Wonder","Cost increases by [10] per owned city",
             "Requires [Drama and Poetry]"]
     },
     {
@@ -163,7 +191,7 @@
         "culture": 3,
         "greatPersonPoints": {"culture": 1},
         "maintenance": 1,
-        "uniques": ["[+1 Culture] from every Wonder","Cost increases by [20] per owned city",
+        "uniques": ["[+1 Culture] from every Wonder","Cost increases by [10] per owned city",
             "Requires [Drama and Poetry]","Will not be displayed in Civilopedia"]
     },
     {
@@ -175,7 +203,7 @@
         "greatPersonPoints": {"culture": 1},
         "maintenance": 1,
         // provides envoy
-        "uniques": ["[+1 Culture] from every Wonder","Cost increases by [20] per owned city",
+        "uniques": ["[+1 Culture] from every Wonder","Cost increases by [10] per owned city",
             "Requires [Drama and Poetry]"]
     },
     {
@@ -183,7 +211,7 @@
         "cost": 54,
         "production": 2,
         "gold": 1,
-        "uniques": ["Cost increases by [20] per owned city"],
+        "uniques": ["Cost increases by [10] per owned city"],
         "requiredTech": "Bronze Working"
     },
     {
@@ -192,7 +220,7 @@
         "cost": 54,
         "production": 2,
         "gold": 1,
-        "uniques": ["Cost increases by [20] per owned city","Will not be displayed in Civilopedia"],
+        "uniques": ["Cost increases by [10] per owned city","Will not be displayed in Civilopedia"],
         "requiredTech": "Bronze Working"
     },
     {
@@ -203,7 +231,7 @@
         "production": 2,
         "gold": 2,
         "uniques": ["[5]% of food is carried over after population increases",
-            "+[25]% production when building [military units] in this city","Cost increases by [10] per owned city"],
+            "+[25]% production when building [military units] in this city","Cost increases by [5] per owned city"],
         "requiredTech": "Bronze Working"
     },
     {
@@ -212,7 +240,7 @@
         "gold": 4,
         "food": 1,
         "uniques": ["[+1 Gold] from [Water resource] tiles in this city","Must be next to [Coast]",
-            "Connects trade routes over water","Cost increases by [20] per owned city"],
+            "Connects trade routes over water","Cost increases by [10] per owned city"],
         "requiredTech": "Celestial Navigation"
     },
     {
@@ -222,7 +250,7 @@
         "gold": 4,
         "food": 1,
         "uniques": ["[+1 Gold] from [Water resource] tiles in this city","Must be next to [Coast]",
-            "Connects trade routes over water","Cost increases by [20] per owned city",
+            "Connects trade routes over water","Cost increases by [10] per owned city",
             "Will not be displayed in Civilopedia"],
         "requiredTech": "Celestial Navigation"
     },
@@ -235,7 +263,7 @@
         "food": 1,
         "uniques": ["[+1 Gold] from [Water resource] tiles in this city","+[50]% production when building [naval units] in this city",
         	"+[50]% production when building [Settler] in this city","Connects trade routes over water","Must be next to [Coast]",
-        "Cost increases by [10] per owned city"],
+        "Cost increases by [5] per owned city"],
         "requiredTech": "Celestial Navigation"
     },
     {
@@ -247,7 +275,7 @@
         "food": 1,
         "uniques": ["[+1 Gold] from [Water resource] tiles in this city",
             "All newly-trained [relevant] units in this city receive the [Royal Navy Dockyard] promotion",
-            "Connects trade routes over water","Must be next to [Coast]","Cost increases by [10] per owned city"],
+            "Connects trade routes over water","Must be next to [Coast]","Cost increases by [5] per owned city"],
         "requiredTech": "Celestial Navigation"
     },
     {
@@ -255,7 +283,7 @@
         "cost": 54,
         "gold": 5,
         "greatPersonPoints": {"gold": 1},
-        "uniques": ["[+1 Gold] from [River] tiles in this city","Cost increases by [20] per owned city"],
+        "uniques": ["[+1 Gold] from [River] tiles in this city","Cost increases by [10] per owned city"],
         "requiredTech": "Currency"
     },
     {
@@ -264,7 +292,7 @@
         "cost": 54,
         "gold": 5,
         "greatPersonPoints": {"gold": 1},
-        "uniques": ["[+1 Gold] from [River] tiles in this city","Cost increases by [20] per owned city",
+        "uniques": ["[+1 Gold] from [River] tiles in this city","Cost increases by [10] per owned city",
             "Will not be displayed in Civilopedia"],
         "requiredTech": "Currency"
     },
@@ -276,7 +304,7 @@
         "gold": 7,
         "greatPersonPoints": {"gold": 1},
         "uniques": ["Cost of purchasing items in cities reduced by [10]%",
-            "[+2 Gold] from [River] tiles in this city","Cost increases by [10] per owned city"],
+            "[+2 Gold] from [River] tiles in this city","Cost increases by [5] per owned city"],
         "requiredTech": "Currency"
     },
     {
@@ -287,7 +315,7 @@
         "maintenance": 1,
         "uniques": ["[+1 Production] from [Mine] tiles in this city","[+1 Production] from [Quarry] tiles in this city",
             "[+1 Production] from [Lumber Mill] tiles in this city","[+1 Production] from every [Strategic resource]",
-            "Cost increases by [20] per owned city"],
+            "Cost increases by [10] per owned city"],
         "requiredTech": "Apprenticeship"
     },
     {
@@ -299,7 +327,7 @@
         "maintenance": 1,
         "uniques": ["[+1 Production] from [Mine] tiles in this city","[+1 Production] from [Quarry] tiles in this city",
             "[+1 Production] from [Lumber Mill] tiles in this city","[+1 Production] from every [Strategic resource]",
-            "Cost increases by [20] per owned city","Will not be displayed in Civilopedia"],
+            "Cost increases by [10] per owned city","Will not be displayed in Civilopedia"],
         "requiredTech": "Apprenticeship"
     },
     {
@@ -312,7 +340,7 @@
         "maintenance": 1,
         "uniques": ["[+1 Production] from every [Commercial Hub]","[+1 Production] from every [Aqueduct]",
             "[+1 Production] from every [Dam]","[+1 Production] from [Strategic resource] tiles in this city",
-            "Cost increases by [10] per owned city"],
+            "Cost increases by [5] per owned city"],
         "requiredTech": "Apprenticeship"
     },
     {
@@ -321,7 +349,7 @@
         "happiness": 1,
         "maintenance": 1,
         "cannotBeBuiltWith": "Water Park",
-        "uniques": ["Cost increases by [20] per owned city","Requires [Games and Recreation]"]
+        "uniques": ["Cost increases by [10] per owned city","Requires [Games and Recreation]"]
     },
     {
         "name": "Entertainment Complex 2", //Germany Unique
@@ -330,7 +358,7 @@
         "happiness": 1,
         "maintenance": 1,
         "cannotBeBuiltWith": "Water Park",
-        "uniques": ["Cost increases by [20] per owned city","Requires [Games and Recreation]","Will not be displayed in Civilopedia"]
+        "uniques": ["Cost increases by [10] per owned city","Requires [Games and Recreation]","Will not be displayed in Civilopedia"]
     },
     {
         "name": "Street Carnival",
@@ -340,7 +368,7 @@
         "happiness": 3,
         "maintenance": 1,
         "cannotBeBuiltWith": "Water Park",
-        "uniques": ["Cost increases by [10] per owned city","Requires [Games and Recreation]"]
+        "uniques": ["Cost increases by [5] per owned city","Requires [Games and Recreation]"]
     },
     {
         "name": "Hippodrome",
@@ -351,13 +379,13 @@
         "maintenance": 1,
         "cannotBeBuiltWith": "Water Park",
         "uniques": ["[2] free [Knight] units appear","Requires [Games and Recreation]",
-            "Cost increases by [10] per owned city"]
+            "Cost increases by [5] per owned city"]
     },
     {
         "name": "Neighborhood",
         "cost": 54,
         "uniques": ["[10]% of food is carried over after population increases",
-            "Cost increases by [20] per owned city","Requires [Urbanization]"]
+            "Cost increases by [10] per owned city","Requires [Urbanization]"]
     },
     {
         "name": "Mbanza",
@@ -367,7 +395,14 @@
         "food": 2,
         "gold": 4,
         "uniques": ["[15]% of food is carried over after population increases",
-            "Cost increases by [10] per owned city","Requires [Guilds]"]
+            "Cost increases by [5] per owned city","Requires [Guilds]"]
+    },
+    {
+        "name": "Aerodrome",
+        "isNationalWonder": true,
+        "cost": 54,
+        "uniques": ["Cost increases by [10] per owned city","Enables construction of Aircraft"],
+        "requiredTech": "Flight"
     },
     {
         "name": "Spaceport",
@@ -382,7 +417,7 @@
         "happiness": 1,
         "maintenance": 1,
         "cannotBeBuiltWith": "Entertainment Complex",
-        "uniques": ["Cost increases by [20] per owned city","Must be next to [Coast]","Requires [Natural History]"]
+        "uniques": ["Cost increases by [10] per owned city","Must be next to [Coast]","Requires [Natural History]"]
     },
     {
         "name": "Water Park 2", //Germany Unique
@@ -391,7 +426,7 @@
         "happiness": 1,
         "maintenance": 1,
         "cannotBeBuiltWith": "Entertainment Complex",
-        "uniques": ["Cost increases by [20] per owned city","Must be next to [Coast]","Will not be displayed in Civilopedia"
+        "uniques": ["Cost increases by [10] per owned city","Must be next to [Coast]","Will not be displayed in Civilopedia"
         	"Requires [Natural History]"]
     },
     {
@@ -402,7 +437,7 @@
         "happiness": 3,
         "maintenance": 1,
         "cannotBeBuiltWith": "Entertainment Complex",
-        "uniques": ["Cost increases by [10] per owned city","Must be next to [Coast]","Requires [Natural History]"]
+        "uniques": ["Cost increases by [5] per owned city","Must be next to [Coast]","Requires [Natural History]"]
     },
 
 // Wonders
@@ -889,10 +924,11 @@
         "cost": 90,
         "production": 1,
         "specialistSlots": {"Commander": 1},
-        "xpForNewUnits": 15,
         "maintenance": 1,
         "requiredBuilding": "Encampment",
-		"uniques": ["[5]% of food is carried over after population increases"],
+        "cannotBeBuiltWith": "Stable",
+		"uniques": ["New [Melee] units start with [15] Experience in this city","New [Ranged] units start with [15] Experience in this city",
+            "New [Armor] units start with [15] Experience in this city"],
         "requiredTech": "Bronze Working"
     },
     {
@@ -903,24 +939,11 @@
         "production": 1,
         "specialistSlots": {"Commander": 1},
         "percentStatBonus": {"science": 25},
-        "xpForNewUnits": 15,
         "maintenance": 1,
         "requiredBuilding": "Encampment",
-		"uniques": ["Science +25% vs +0%","[5]% of food is carried over after population increases"],
-        "requiredTech": "Bronze Working"
-    },
-    {
-        "name": "Ordu",
-        "replaces": "Barracks",
-        "uniqueTo": "Mongolia",
-        "cost": 90,
-        "production": 1,
-        "specialistSlots": {"Commander": 1},
-        "xpForNewUnits": 15,
-        "maintenance": 1,
-        "requiredBuilding": "Encampment",
-		"uniques": ["All newly-trained [Mounted] units in this city receive the [Ordu] promotion",
-			"[5]% of food is carried over after population increases"],
+        "cannotBeBuiltWith": "Stable",
+		"uniques": ["New [Melee] units start with [15] Experience in this city","New [Ranged] units start with [15] Experience in this city",
+            "New [Armor] units start with [15] Experience in this city","Science +25% vs +0%"],
         "requiredTech": "Bronze Working"
     },
     {
@@ -962,14 +985,41 @@
   	      	"[+1 Culture] from [Geothermal Fissure] tiles in this city","Requires [Drama and Poetry]"],
     },
     {
+        "name": "Stable",
+        "replaces": "Barracks",
+        "uniqueTo": "Mongolia",
+        "cost": 120,
+        "production": 1,
+        "specialistSlots": {"Commander": 1},
+        "maintenance": 1,
+        "requiredBuilding": "Encampment",
+        "cannotBeBuiltWith": "Barracks",
+        "uniques": ["New [Mounted] units start with [15] Experience in this city","New [Siege] units start with [15] Experience in this city"],
+        "requiredTech": "Bronze Working"
+    },
+    {
+        "name": "Ordu",
+        "replaces": "Barracks",
+        "uniqueTo": "Mongolia",
+        "cost": 120,
+        "production": 1,
+        "specialistSlots": {"Commander": 1},
+        "maintenance": 1,
+        "requiredBuilding": "Encampment",
+        "cannotBeBuiltWith": "Barracks",
+        "uniques": ["New [Mounted] units start with [15] Experience in this city","New [Siege] units start with [15] Experience in this city",
+            "All newly-trained [Mounted] units in this city receive the [Ordu] promotion"],
+        "requiredTech": "Bronze Working"
+    },
+    {
         "name": "Lighthouse",
         "cost": 120,
         "gold": 1,
         "food": 1,
-        "xpForNewUnits": 10,
         "requiredBuilding": "Harbor",
-        "uniques": ["[+1 Food] from [Coast] tiles in this city","[+1 Food] from [Lake] tiles in this city",
-        	"[5]% of food is carried over after population increases"],
+        "providesFreeBuilding": "Lighthouse Bonus",
+        "uniques": ["New naval units start with 15 Experience in this city","[+1 Food] from [Coast] tiles in this city",
+            "[+1 Food] from [Lake] tiles in this city","[10]% of food is carried over after population increases"],
         "requiredTech": "Celestial Navigation"
     },
     {
@@ -1116,10 +1166,10 @@
         "cost": 195,
         "production": 3,
         "specialistSlots": {"Commander": 1},
-        "xpForNewUnits": 15,
         "maintenance": 2,
         "requiredBuilding": "Encampment",
-        "requiredTech": "Military Engineering"
+        "requiredTech": "Military Engineering",
+        "uniques": ["New [non-air] units start with [15] Experience in this city"]
     },  
     {
         "name": "Medieval Walls",
@@ -1168,10 +1218,10 @@
         "name": "Shipyard",
         "cost": 290,
         "production": 2,
-        "xpForNewUnits": 10,
         "maintenance": 2,
         "requiredBuilding": "Harbor",
-        "uniques": ["[+1 Gold, +1 Production] from [Coast] tiles in this city",
+        "providesFreeBuilding": "Shipyard Bonus",
+        "uniques": ["New naval units start with 15 Experience in this city","[+1 Gold, +1 Production] from [Coast] tiles in this city",
         	"[+1 Gold, +1 Production] from [Lakes] tiles in this city"],
         "requiredTech": "Mass Production"
     },
@@ -1227,10 +1277,9 @@
         "cost": 330,
         "production": 4,
         "specialistSlots": {"Commander": 1},
-        "xpForNewUnits": 15,
         "maintenance": 2,
         "requiredBuilding": "Encampment",
-        "uniques": ["[5]% of food is carried over after population increases"],
+        "uniques": ["New [non-air] units start with [15] Experience in this city","[5]% of food is carried over after population increases"],
         "requiredTech": "Military Science"
     }, 
     {
@@ -1304,14 +1353,23 @@
     // Modern Era 
 
     {
+        "name": "Hangar",
+        "cost": 380,
+        "production": 2,
+        "maintenance": 1,
+        "requiredBuilding": "Aerodrome",
+        "uniques": ["New [Fighter] units start with [15] Experience in this city","New [Bomber] units start with [15] Experience in this city"],
+        "requiredTech": "Flight"
+    },
+    {
         "name": "Seaport",
         "cost": 440,
         "food": 2,
         "gold": 2,
-        "xpForNewUnits": 10,
         "maintenance": 2,
         "requiredBuilding": "Harbor",
-        "uniques": ["[+2 Gold] from [Coast] tiles in this city",
+        "providesFreeBuilding": "Seaport Bonus",
+        "uniques": ["New naval units start with 15 Experience in this city","[+2 Gold] from [Coast] tiles in this city",
         	"[5]% of food is carried over after population increases"],
         "requiredTech": "Electricity"
     },
@@ -1381,6 +1439,15 @@
 
     // Atomic Era 
 
+    {
+        "name": "Airport",
+        "cost": 480,
+        "production": 5,
+        "maintenance": 2,
+        "requiredBuilding": "Aerodrome",
+        "uniques": ["New [Fighter] units start with [30] Experience in this city","New [Bomber] units start with [30] Experience in this city"],
+        "requiredTech": "Advanced Flight"
+    },
     {
         "name": "Stadium",
         "cost": 480,

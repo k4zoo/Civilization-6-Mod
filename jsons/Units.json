@@ -302,7 +302,8 @@
 		"obsoleteTech": "Gunpowder",
 		"requiredResource": "Iron",
 		"upgradesTo": "Musketman",
-		"uniques": ["Double movement rate through Forest and Jungle","+33% Defence against ranged attacks","Bonus vs Armor 33%"],
+		"uniques": ["+1 Visibility Range","Double movement rate through Forest and Jungle",
+			"+33% Defence against ranged attacks","Bonus vs Armor 33%"],
 		"attackSound": "metalhit"
 	},
 	{
@@ -415,7 +416,7 @@
 		"requiredTech": "Engineering",
 		"obsoleteTech": "Metal Casting",
 		"upgradesTo": "Bombard",
-		"uniques": ["Bonus as Attacker [-57]%","Bonus vs City 270%","Must set up to ranged attack"],
+		"uniques": ["+[-57]% Strength when attacking","Bonus vs City 270%","Must set up to ranged attack"],
 		"attackSound": "throw"
 	},
 	{
@@ -476,7 +477,7 @@
 		"obsoleteTech": "Gunpowder",
 		"requiredResource": "Iron",
 		"upgradesTo": "Musketman",
-		"uniques": ["Bonus as Attacker [33]%","No movement cost to pillage","Bonus vs Armor 33%"],
+		"uniques": ["+[33]% Strength when attacking","No movement cost to pillage","Bonus vs Armor 33%"],
 		"attackSound": "metalhit"
 	},
 	{
@@ -546,7 +547,7 @@
 		"requiredTech": "Military Engineering",
 		"obsoleteTech": "Steel",
 		"upgradesTo": "Artillery",
-		"uniques": ["Bonus as Attacker [-57]%","Bonus vs City 270%"]
+		"uniques": ["+[-57]% Strength when attacking","Bonus vs City 270%"]
 	},
 	{
 		"name": "Pikeman",
@@ -668,7 +669,7 @@
 		"obsoleteTech": "Ballistics",
 		"requiredResource": "Iron",
 		"upgradesTo": "Cuirassier",
-		"uniques": ["Bonus as Attacker [15]%","Requires [Mercenaries]"],
+		"uniques": ["+[15]% Strength when attacking","Requires [Mercenaries]"],
 		"attackSound": "horse"
 	},
 	{
@@ -767,7 +768,7 @@
 		"obsoleteTech": "Synthetic Materials",
 		"requiredResource": "Iron",
 		"upgradesTo": "Helicopter",
-		"uniques": ["No movement cost to pillage","Bonus as Attacker [16]%"],
+		"uniques": ["No movement cost to pillage","+[15]% Strength when attacking"],
 		"attackSound": "horse"
 	},
 	{
@@ -880,7 +881,7 @@
 		"obsoleteTech": "Steel",
 		"requiredResource": "Niter",
 		"upgradesTo": "Artillery",
-		"uniques": ["Bonus as Attacker [-57]%","Bonus vs City 270%","Must set up to ranged attack"],
+		"uniques": ["+[-57]% Strength when attacking","Bonus vs City 270%","Must set up to ranged attack"],
 		"attackSound": "shot"
 	},
 	{
@@ -1125,7 +1126,7 @@
 		"obsoleteTech": "Advanced Flight",
 		"requiredResource": "Oil",
 		"upgradesTo": "Fighter",
-		"uniques": ["[100]% chance to intercept air attacks","+2 Visibility Range"],
+		"uniques": ["[100]% chance to intercept air attacks","+2 Visibility Range","Requires [Aerodrome]"],
 		"attackSound": "shot"
 	},
 	{
@@ -1166,7 +1167,7 @@
 		"obsoleteTech": "Guidance Systems",
 		"requiredResource": "Oil",
 		"upgradesTo": "Rocket Artillery",
-		"uniques": ["Bonus as Attacker [-57]%","Bonus vs City 270%","Must set up to ranged attack"],
+		"uniques": ["+[-57]% Strength when attacking","Bonus vs City 270%","Must set up to ranged attack"],
 		"attackSound": "shot"
 	},
 	{
@@ -1266,7 +1267,7 @@
 		"obsoleteTech": "Lasers",
 		"requiredResource": "Aluminum",
 		"upgradesTo": "Jet Fighter",
-		"uniques": ["[100]% chance to intercept air attacks","+2 Visibility Range"],
+		"uniques": ["[100]% chance to intercept air attacks","+2 Visibility Range","Requires [Aerodrome]"],
 		"attackSound": "shot"
 	},
 	{
@@ -1284,7 +1285,7 @@
 		"obsoleteTech": "Lasers",
 		"requiredResource": "Aluminum",
 		"upgradesTo": "Jet Fighter",
-		"uniques": ["50% Bonus XP gain","Bonus vs Fighter 10%","[100]% chance to intercept air attacks","+2 Visibility Range"],
+		"uniques": ["50% Bonus XP gain","Bonus vs Fighter 10%","[100]% chance to intercept air attacks","+2 Visibility Range","Requires [Aerodrome]"],
 		"attackSound": "shot"
 	},
 	{
@@ -1299,7 +1300,7 @@
 		"obsoleteTech": "Stealth Technology",
 		"requiredResource": "Aluminum",
 		"upgradesTo": "Jet Bomber",
-		"uniques": ["+2 Visibility Range"],
+		"uniques": ["+2 Visibility Range","Requires [Aerodrome]"],
 		"attackSound": "shot"
 	},
 	{
@@ -1414,7 +1415,7 @@
 		"cost": 680,
 		"requiredTech": "Guidance Systems",
 		"requiredResource": "Oil",
-		"uniques": ["+1 Visibility Range","Bonus as Attacker [-57]%","Bonus vs City 270%","Must set up to ranged attack"],
+		"uniques": ["+1 Visibility Range","+[-57]% Strength when attacking","Bonus vs City 270%","Must set up to ranged attack"],
 		"attackSound": "shot"
 	},
 	{
@@ -1439,7 +1440,7 @@
 		"cost": 650,
 		"requiredTech": "Lasers",
 		"requiredResource": "Aluminum",
-		"uniques": ["[100]% chance to intercept air attacks","6 tiles in every direction always visible"],
+		"uniques": ["[100]% chance to intercept air attacks","6 tiles in every direction always visible","Requires [Aerodrome]"],
 		"attackSound": "machinegun"
 	},
 	{
@@ -1486,7 +1487,7 @@
 		"cost": 700,
 		"requiredTech": "Stealth Technology",
 		"requiredResource": "Aluminum",
-		"uniques": ["6 tiles in every direction always visible"],
+		"uniques": ["6 tiles in every direction always visible","Requires [Aerodrome]"],
 		"attackSound": "shot"
 	},
 	{

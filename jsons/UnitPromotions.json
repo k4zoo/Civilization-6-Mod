@@ -56,7 +56,7 @@
 	},
 	{
 		"name": "Garrison",
-		"uniques": ["+25% Combat Bonus when defending"],
+		"uniques": ["+[33]% Strength when defending"],
 		"unitTypes": ["Ranged"]
 	},
 	{
@@ -98,7 +98,7 @@
 	},
 	{
 		"name": "Crew Weapons",
-		"uniques": ["+25% Combat Bonus when defending"],
+		"uniques": ["+[25]% Strength when defending"],
 		"unitTypes": ["Siege"]
 	},
 	{
@@ -140,7 +140,7 @@
 	},
 	{
 		"name": "Tortoise",
-		"uniques": ["+25% Defence against ranged attacks"],
+		"uniques": ["+[33]% Strength when defending"],
 		"unitTypes": ["Melee"]
 	},
 	{
@@ -245,12 +245,12 @@
 	// Mounted
 	{
 		"name": "Charge",
-		"uniques": ["Bonus as Attacker [15]%"],
+		"uniques": ["+[15]% Strength when attacking"],
 		"unitTypes": ["Mounted"]
 	},
 	{
 		"name": "Barding",
-		"uniques": ["+25% Defence against ranged attacks"],
+		"uniques": ["+[25]% Strength when defending"],
 		"unitTypes": ["Mounted"]
 	},
 	{
@@ -274,7 +274,7 @@
 	{
 		"name": "Reactive Armor",
 		"prerequisites": ["Rout"],
-		"uniques": ["+25% Combat Bonus when defending"],
+		"uniques": ["+[25]% Strength when defending"],
 		"unitTypes": ["Mounted"]
 	},
 	{
@@ -353,7 +353,7 @@
 	{
 		"name": "Convoy",
 		"prerequisites": ["Rutter","Reinforced Hull"],
-		"uniques": ["Bonus as Attacker [20]%"],
+		"uniques": ["+[20]% Strength when attacking"],
 		"unitTypes": ["WaterMelee"]
 	},
 	{
@@ -566,12 +566,19 @@
 	},
 	{
 		"name": "Drone Air Defense", // GDR
-		"uniques": ["Bonus vs air units 300%"]
+		"uniques": ["Bonus vs air units 333%"]
 	},
 	{
 		"name": "Particle Beam Siege Cannon", // GDR
-		"uniques": ["+[50]% Combat Strength","Bonus vs City 100%"]
+		"uniques": ["+[100]% Combat Strength","Bonus vs City 100%"]
 	},
-
+	{
+		"name": "Enhanced Mobility", // GDR
+		"uniques": ["+1 Movement","+1 Movement","+1 Movement"]
+	},
+	{
+		"name": "Reinforced Armor Plating", // GDR
+		"uniques": ["+[33]% Strength when defending"]
+	},
 
 ]
