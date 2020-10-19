@@ -1069,7 +1069,7 @@
         "happiness": 1,
         "maintenance": 1,
         "uniques": ["[10]% of food is carried over after population increases",
-            "Must be next to [Flood Plains]"],
+            "Must be next to [Flood plains]"],
         "requiredTech": "Buttress"
     },
     {
@@ -1077,7 +1077,9 @@
         "cost": 36,
         "maintenance": 1,
         "uniques": ["[+1 Happiness] from [Geothermal Fissure] tiles in this city",
-            "[10]% of food is carried over after population increases","Cost increases by [10] per owned city"],
+            "[+2 Production] from [Terrace Farm] tiles in this city",
+            "[10]% of food is carried over after population increases",
+            "Cost increases by [10] per owned city"],
         "requiredTech": "Engineering"
     },
     {
