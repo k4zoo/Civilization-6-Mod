@@ -476,9 +476,10 @@
         "isWonder": true,
         "cost": 180,
         "food": 4,
+        "requiredNearbyImprovedResources": ["Deer","Furs","Honey","Ivory","Truffles"],
         "requiredTech": "Archery",
         "uniques": ["[+1 Happiness] from [Camp] tiles in this city","[+1 Happiness] from [Pasture] tiles in this city",
-            "[+1 Happiness] from [Plantation] tiles in this city","[10]% of food is carried over after population increases","Must be next to [Camp]"],
+            "[+1 Happiness] from [Plantation] tiles in this city","[10]% of food is carried over after population increases"],
         "quote": "'When I saw the house of Artemis that mounted to the clouds, those other marvels lost their brilliancy, and I said, 'Lo, apart from Olympus, the Sun never looked on aught so grand.' –Antipater of Sidon"
     },
     {
