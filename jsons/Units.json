@@ -505,7 +505,7 @@
 		"obsoleteTech": "Gunpowder",
 		"requiredResource": "Iron",
 		"upgradesTo": "Musketman",
-		"uniques": ["Ignores terrain cost","Bonus vs units in rough terrain 23%","Bonus vs Armor 33%"],
+		"uniques": ["Ignores terrain cost","+[25]% combat bonus in [Hill]","Bonus vs Armor 33%"],
 		"attackSound": "metalhit"
 	},
 	{
@@ -1153,7 +1153,7 @@
 		"requiredTech": "Replaceable Parts",
 		"obsoleteTech": "Satellites",
 		"upgradesTo": "Mechanized Infantry",
-		"uniques": ["+[33]% combat bonus in [Coast]","+20% bonus outside friendly territory","Bonus vs Armor 33%"],
+		"uniques": ["+[33]% combat bonus in [Coast]","+[15]% combat bonus in [Foreign Land]","Bonus vs Armor 33%"],
 		"attackSound": "shot"
 	},
 	{

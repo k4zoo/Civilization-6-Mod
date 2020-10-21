@@ -67,7 +67,7 @@
 		"outerColor": [21,108,49],
 		"innerColor": [248,217,2],
 		"uniqueName": "Land Down Under",
-		"uniqueText": " 15% of food is carried over after population increases in coastal cities. Campus, Commercial Hub, Holy Site, and Theater Square receive an additional +1 yield.
+		"uniqueText": " 5% of food is carried over after population increases in coastal cities. Campus, Commercial Hub, Holy Site, and Theater Square receive an additional +1 yield.
 		",
 		"uniques": ["[+1 Science] from every [Campus]","[+1 Gold] from every [Commercial Hub]","[+1 Culture] from every [Holy Site]","[+1 Culture] from every [Theater Square]"],
 		"cities": ["Canberra","Sydney","Launceston","Ballaarat","Perth","Brisbane","Toowoomba","Melbourne","Townsville","Geelong",
@@ -552,7 +552,7 @@
 			"Hamhung","Wonju","Ulsan","Changwon","Andong","Gongju","Haeju","Cheongju","Mokpo","Dongducheon",
 			"Geoje","Suncheon","Jinju","Sangju","Rason","Chungju","Sacheon","Gimje","Anju"]
 	},
-{
+	{
 		"name": "Macedon",
 		"leaderName": "Alexander",
 		"adjective": ["Macedonian"],

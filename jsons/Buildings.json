@@ -37,6 +37,15 @@
             "Will not be displayed in Civilopedia"]
     },
     {
+        "name": "Australia Bonus",
+        "uniqueTo": "Australia",
+        "cost": -1,
+        "cannotBeBuiltWith": "~l1",
+        "providesFreeBuilding": "~l1",
+        "uniques": ["Must be next to [Coast]","[5]% of food is carried over after population increases"
+            "Will not be displayed in Civilopedia"]
+    },
+    {
         "name": "Macedon Bonus",
         "uniqueTo": "Macedon",
         "cost": -1,
@@ -987,8 +996,6 @@
     },
     {
         "name": "Stable",
-        "replaces": "Barracks",
-        "uniqueTo": "Mongolia",
         "cost": 120,
         "production": 1,
         "specialistSlots": {"Commander": 1},
@@ -1000,7 +1007,7 @@
     },
     {
         "name": "Ordu",
-        "replaces": "Barracks",
+        "replaces": "Stable",
         "uniqueTo": "Mongolia",
         "cost": 120,
         "production": 1,
