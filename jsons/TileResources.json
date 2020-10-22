@@ -103,7 +103,6 @@
 		"resourceType": "Strategic",
 		"revealedBy": "Bronze Working",
 		"terrainsCanBeFoundOn": ["Hill"],
-		"production": 1,
 		"science": 1,
 		"improvement": "Mine",
 		"improvementStats": {"production": 1}
@@ -141,7 +140,6 @@
 		"resourceType": "Strategic",
 		"revealedBy": "Radio",
 		"terrainsCanBeFoundOn": ["Desert","Plains","Jungle"],
-		"production": 1,
 		"science": 1,
 		"improvement": "Mine",
 		"improvementStats": {"production": 1}
@@ -160,7 +158,6 @@
 		"name": "Amber",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Forest","Jungle","Coast"], 
-		"gold": 1,
 		"culture": 1,
 		"improvement": "Mine",
 		"improvementStats": {"production": 1}
@@ -185,7 +182,6 @@
 		"name": "Coffee",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Grassland","Jungle"],
-		"gold": 1,
 		"culture": 1,
 		"improvement": "Plantation",
 		"improvementStats": {"gold": 1}
@@ -210,7 +206,6 @@
 		"name": "Dyes",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Jungle","Forest"],
-		"gold": 1,
 		"culture": 1,
 		"improvement": "Plantation",
 		"improvementStats": {"gold": 1}
@@ -244,7 +239,7 @@
 		"name": "Incense",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Plains","Desert"],
-		"gold": 2,
+		"culture": 2,
 		"improvement": "Plantation",
 		"improvementStats": {"gold": 1},
 		"building": "Monastery"
@@ -262,7 +257,6 @@
 		"name": "Jade",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Grassland","Tundra","Plains"],
-		"gold": 1,
 		"culture": 1,
 		"improvement": "Mine",
 		"improvementStats": {"production": 1}
@@ -271,7 +265,6 @@
 		"name": "Marble",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Grassland","Hill"],
-		"gold": 1,
 		"culture": 1,
 		"improvement": "Quarry",
 		"improvementStats": {"production": 1}
@@ -280,7 +273,6 @@
 		"name": "Mercury",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Plains"],
-		"gold": 1,
 		"science": 1,
 		"improvement": "Mine",
 		"improvementStats": {"production": 1}
@@ -298,7 +290,6 @@
 		"name": "Pearls",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Coast","Lakes"],
-		"gold": 1,
 		"culture": 1,
 		"improvement": "Fishing Boats",
 		"improvementStats": {"food": 1}
@@ -315,7 +306,6 @@
 		"name": "Silk",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Forest"],
-		"gold": 1,
 		"culture": 1,
 		"improvement": "Plantation",
 		"improvementStats": {"gold": 1}
@@ -348,7 +338,6 @@
 		"name": "Tea",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Grassland"],
-		"gold": 1,
 		"science": 1,
 		"improvement": "Plantation",
 		"improvementStats": {"gold": 1}
@@ -357,7 +346,6 @@
 		"name": "Tobacco",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Jungle","Forest","Grassland","Plains"],
-		"gold": 1,
 		"culture": 1,
 		"improvement": "Plantation",
 		"improvementStats": {"gold": 1}
@@ -374,7 +362,6 @@
 		"name": "Turtles",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Reef"],
-		"gold": 1,
 		"science": 1,
 		"improvement": "Fishing Boats",
 		"improvementStats": {"food": 1}
