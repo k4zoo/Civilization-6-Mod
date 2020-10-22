@@ -65,7 +65,7 @@ Wonders enabled:
 			},
 			{
 				"name": "Exploration",
-				"uniques": ["Gain gold for each unit killed","[+1 Food] from every [Pasture]",
+				"uniques": ["Earn [10]% of [military] opponent's [Cost] as [Gold] for kills","[+1 Food] from every [Pasture]",
 					"[+2 Culture, +1 Food, +1 Production, +1 Science] from every [Mission]"],
 				"requires": ["Mercenaries","Medieval Faires"],
 				"row": 1,
@@ -84,7 +84,7 @@ Wonders enabled:
 			},
 			{
 				"name": "Colonialism",
-				"uniques": ["[+1 Production] from every [Fishing Boats]","Gain gold for each unit killed"], 
+				"uniques": ["[+1 Production] from every [Fishing Boats]","Earn [10]% of [military] opponent's [Cost] as [Gold] for kills"], 
 				"requires": ["Mercantilism"],
 				"row": 1,
 				"column": 27

@@ -100,6 +100,19 @@
 		"attackSound": "nonmetalhit"
 	},
 	{
+		"name": "Gaesatae",
+		"uniqueTo": "Gaul",
+		"replaces": "Warrior",
+		"unitType": "Melee",
+		"movement": 2,
+		"strength": 20,
+		"cost": 60,
+		"obsoleteTech": "Iron Working",
+		"upgradesTo": "Musketman",
+		"uniques": ["+[33]% Combat Strength","Bonus vs City 15%","Bonus vs Armor 33%"],
+		"attackSound": "nonmetalhit"
+	},
+	{
 		"name": "Slinger",
 		"unitType": "Ranged",
 		"movement": 2,
@@ -433,6 +446,23 @@
 		"uniques": ["Cannot enter ocean tiles until Astronomy"],
 		"attackSound": "arrow"
 	},
+	{
+		"name": "Dromon",
+		"uniqueTo": "Byzantium",
+		"replaces": "Quadrireme",
+		"unitType": "WaterRanged",
+		"movement": 3,
+		"range": 2,
+		"strength": 20,
+		"rangedStrength": 25,
+		"cost": 120,
+		"requiredTech": "Shipbuilding",
+		"obsoleteTech": "Square Rigging",
+		"upgradesTo": "Frigate",
+		"uniques": ["Bonus vs land units 33%","Bonus vs water units 33%",
+			"Cannot enter ocean tiles until Astronomy"],
+		"attackSound": "arrow"
+	},
 
 	// Medieval Era
 
@@ -627,6 +657,20 @@
 		"obsoleteTech": "Ballistics",
 		"requiredResource": "Iron",
 		"upgradesTo": "Cuirassier",
+		"attackSound": "horse"
+	},
+	{
+		"name": "Tagma",
+		"uniqueTo": "Byzantium",
+		"replaces": "Knight",
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 48,
+		"cost": 220,
+		"obsoleteTech": "Ballistics",
+		"requiredResource": "Iron",
+		"upgradesTo": "Cuirassier",
+		"uniques": ["Bonus for units in 2 tile radius 15%","Requires [Divine Right]"],
 		"attackSound": "horse"
 	},
 	{
@@ -1555,13 +1599,6 @@
 		"unitType": "Civilian",
 		"uniques": ["Bonus for units in 2 tile radius 15%","Great Person - [War]", "Unbuildable"],
 		"movement": 4
-	},
-	{
-		"name": "Commandante General",
-		"uniqueTo": "Gran Colombia",
-		"unitType": "Civilian",
-		"uniques": ["Bonus for units in 2 tile radius 30%","Unbuildable"],
-		"movement": 4
-	},
+	}
 ]
 

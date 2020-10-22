@@ -539,8 +539,12 @@
 
 	// Uniques
 	{
-		"name": "Ortoo", // Mongolia
-		"uniques": ["+[10]% combat bonus in [Road]"]
+		"name": "Taxis", // Byzantium
+		"uniques": ["+[10]% Combat Strength"]
+	},
+	{
+		"name": "Porphyrogennetos", // Byzantium
+		"uniques": ["Bonus vs City 33%"]
 	},
 	{
 		"name": "Mongol Horde", // Mongolia

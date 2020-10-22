@@ -323,7 +323,7 @@
         "greatPersonPoints": {"production": 1},
         "maintenance": 1,
         "uniques": ["[+1 Production] from [Mine] tiles in this city","[+1 Production] from [Quarry] tiles in this city",
-            "[+1 Production] from [Lumber Mill] tiles in this city","[+1 Production] from every [Strategic resource]",
+            "[+1 Production] from [Lumber Mill] tiles in this city","[+1 Production] from [Strategic resource] tiles in this city",
             "Cost increases by [10] per owned city"],
         "requiredTech": "Apprenticeship"
     },
@@ -335,7 +335,7 @@
         "greatPersonPoints": {"production": 1},
         "maintenance": 1,
         "uniques": ["[+1 Production] from [Mine] tiles in this city","[+1 Production] from [Quarry] tiles in this city",
-            "[+1 Production] from [Lumber Mill] tiles in this city","[+1 Production] from every [Strategic resource]",
+            "[+1 Production] from [Lumber Mill] tiles in this city","[+1 Production] from [Strategic resource] tiles in this city",
             "Cost increases by [10] per owned city","Will not be displayed in Civilopedia"],
         "requiredTech": "Apprenticeship"
     },
@@ -351,6 +351,18 @@
             "[+1 Production] from every [Dam]","[+1 Production] from [Strategic resource] tiles in this city",
             "Cost increases by [5] per owned city"],
         "requiredTech": "Apprenticeship"
+    },
+    {
+        "name": "Oppidum",
+        "replaces": "Industrial Zone",
+        "uniqueTo": "Gaul",
+        "cost": 27,
+        "prodcution": 4,
+        "greatPersonPoints": {"production": 1},
+        "maintenance": 1,
+        "uniques": ["[+2 Production] from [Quarry] tiles in this city","[+2 Production] from [Strategic resource] tiles in this city",
+            "Cost increases by [10] per owned city"],
+        "requiredTech": "Iron Working"
     },
     {
         "name": "Entertainment Complex",

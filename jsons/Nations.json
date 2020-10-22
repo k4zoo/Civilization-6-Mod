@@ -122,6 +122,29 @@
 			"Feira de Santana","Juiz de Fora","Joinville","Jundiaí"]	
 	},
 	{
+		"name": "Byzantium",
+		"leaderName": "Basil II",
+		"adjective": ["Byzantine"],
+		"preferredVictoryType": "Cultural",
+	
+		"declaringWar": "You deserve nothing less than war, but in my abundant mercy, I will make it brief and decisive.",
+		"attacked": "I shall tell my historians to record your empire for the future, after I have ground your cities into the dust.",
+		"defeated": "Has God withdrawn his favor from me, that Rome must fall? Oh, what a calamity!",
+		"introduction": "You stand before Basil, Autocrat and Emperor of the Romans, scourge of my foes. Behold Rome!",
+		"neutralHello": "Our people stand as one!",
+		"hateHello": "Thanks but no thanks.",
+		"tradeRequest": "We send to you all the delights of Anatolia!",
+		"outerColor": [55,0,101],
+		"innerColor": [233,226,158],
+		"uniqueName": "Taxis",
+		"uniqueText": " All military units receive +10% Combat Strength, Mounted units deal +33% more damage when attacking cities, Great Artist is earned 20% faster
+		",
+		"uniques": ["[military] units gain the [Taxis] promotion","[military] units gain the [Porphyrogennetos] promotion","[Great Artist] is earned [20]% faster"]
+		"cities": ["Constantinople","Thessalonica","Adrianople","Nicaea","Antioch","Nicomedia","Trebizond","Ancyra","Edessa","Sinope",
+			"Amaseia","Cherson","Dyrrachium","Nicopolis","Seleucia","Iconium","Melitene","Bari","Dorylaeum","Amorium",
+			"Koloneia","Tyana","Attalea","Sebasteia","Theodosiopolis","Mesembria","Arcadriopolis","Mount Athos","Dorystolon","Zara"]	
+	},
+	{
 		"name": "Canada",
 		"leaderName": "Wilfrid Laurier",
 		"adjective": ["Canadian"],
@@ -250,7 +273,7 @@
 		"outerColor": [248,217,2],
 		"innerColor": [21,108,49],
 		"uniqueName": "Aksumite Legacy",
-		"uniques": ["+[20]% Strength if within [2] tiles of a [Hill]", "[+1 Culture] from every [Strategic Resource]", "[+1 Culture] from each Trade Route"],
+		"uniques": ["+[20]% Strength if within [2] tiles of a [Hill]", "[+1 Culture] from every [Strategic Resource]","[+1 Culture] from each Trade Route"],
 		"cities": ["Addis Ababa","Gondar","Harar","Axum","Adwa","Lalibela","Mekele","Dessie","Jimma","Sodo","Dire Dawa","Adigrat",
 			"Weldiya","Ankober","Alamata","Yirgalem","Gore","Negele Borana","Ginir","Debarq","Nejo","Debre Berhan",
 			"Abiy Addi","Mersa","Soqota","Sayint Ajebar","Chencha","Antalo","Yifat","Dabat","Debre Sina"]
@@ -276,6 +299,28 @@
 			"Dijon","Amiens","Cherbourg","Poitiers","Toulouse","Bayonne","Strasbourg","Brest","Bordeaux","Rennes",
 			"Nice","Saint Etienne","Nantes","Reims","Le Mans","Montpellier","Limoges","Nancy","Lille","Caen","Toulon",
 			"Le Havre","Lourdes","Cannes","Aix-En-Provence","La Rochelle","Bourges","Calais"]
+	},
+	{
+		"name": "Gaul",
+		"leaderName": "Ambiorix",
+		"adjective": ["Gallic"],
+		"preferredVictoryType": "Domination",
+		
+		"declaringWar": "I have bested many enemies in war before, and finally I shall match my strength against yours!",
+		"attacked": "Peace is stifling. Only in war can we see who is the greater chief.",
+		"defeated": "Such power! Perhaps I underestimated you before. Now, in defeat, I will give you the respect you are due.",
+		"introduction": "All you see is the land of the Gauls, and I am Ambiorix, their chief.",
+		"neutralHello": "We stand as kin!",
+		"hateHello": "I understand. You must be careful.",
+		"tradeRequest": "Come, let us feast!",
+		"outerColor": [21,108,49],
+		"innerColor": [124,237,229],
+		"uniqueName": "Hallstatt Culture",
+		"uniques": ["[+1 Culture] from every [Mine]","Earn [20]% of [Barbarians] opponent's [Cost] as [Culture] for kills",
+			"+15% combat strength for melee units which have another military unit in an adjacent tile"],
+		"cities": ["Aduatuca","Bibrax","Noviodunum","Samarobriva","Durocorteron","Raturnacos","Tervanna","Bagacum","Divodorum","Alesia","Avaricum",
+			"Lisieux","Lutetia","Lugudunon","Cenabum","Meledunum","Turones","Autricum","Bibracte","Darioritum","Uxellodunum","Gergovia",
+			"Vesontio","Brenodurum","Crociatonum","Agedincum","Limonum","Adematunnum","Condate","Aregenua","Anicium","Ruscino"]
 	},
 	{
 		"name": "Georgia",
@@ -339,10 +384,9 @@
 		"outerColor": [1,42,108],
 		"innerColor": [245,217,0],
 		"uniqueName": "Ejército Patriota",
-		"uniqueText": " +1 Movement for all land units
+		"uniqueText": " +2 Movement for all land units
 		",
-		"uniques": ["+[1] Movement for all [Civilian] units","+[1] Movement for all [Melee] units",
-			"+[1] Movement for all [Mounted] units","+[1] Movement for all [Ranged] units","+[1] Movement for all [Armor] units"],
+		"uniques": ["+[2] Movement for all [non-air] units"],
 		"cities": ["Bogotá","Quito","Valencia De Carabobo","Cali","Cumaná","Maracaibo","Medellín","Guayaquil","Panamá","Caracas",
 			"Cartagena de Indias","Popayán","Cuenca","Barinas","Santa Marta","Loja","Angostura","Pasto","Nueva Barcelona","Neiva",
 			"Mérida","Portoviejo","Riobamba","Ibarra","Riohacha","Quibdó","Nueva Pamplona","Santiago de Veraguas","La Asunción","Achaguas",
@@ -365,7 +409,7 @@
 		"outerColor": [115,52,44],
 		"innerColor": [190,217,220],
 		"uniqueName": "Thermopylae",
-		"uniques": ["Gains culture from each enemy unit killed"],
+		"uniques": ["Earn [50]% of [military] opponent's [Strength] as [Culture] for kills"],
 		"cities": ["Athens","Sparta","Corinth","Argos","Knossos","Mycenae","Pharsalos","Ephesus","Halicarnassus","Rhodes",
 			"Eretria","Pergamon","Miletos","Megara","Phocaea","Sicyon","Tiryns","Samos","Mytilene","Chios",
 			"Paros","Elis","Syracuse","Herakleia","Gortyn","Chalkis","Pylos","Pella","Naxos","Sicyon",
@@ -579,7 +623,7 @@
 		"name": "Mali",
 		"leaderName": "Mansa Musa",
 		"adjective": ["Malian"],
-		"startBias": ["Desert","Hill"],
+		"startBias": ["Desert"],
 
 		"declaringWar": "Your transgressions are as deep as oceans. O God, grant that I may chastise this one!",
 		"attacked": "Enough! My forbearance ends here! We must have war between us, instead of a false peace.",
@@ -591,7 +635,10 @@
 		"outerColor": [121,0,2],
 		"innerColor": [234,225,158],
 		"uniqueName": "Songs of the Jeli",
-		"uniques": ["[-4 Production] from every [City Center]","[+1 Food, +1 Culture, +1 Gold] from every [Desert]","[-1 Production, +4 Gold] from every [Mine]"],
+		"uniqueText": " -30% Production when constructing Buildings and Military Units, +1 Food, +1 Culture, +1 Gold from every Desert, -1 Production, +4 Gold from every Mine
+		",
+		"uniques": ["+[-30]% Production when constructing [Buildings]","+[-30]% Production when constructing [military units]",
+			"[+1 Food, +1 Culture, +1 Gold] from every [Desert]","[-1 Production, +4 Gold] from every [Mine]"],
 		"cities": ["Niani","Timbuktu","Jenne","Gao","Kumbi Saleh","Walata","Tawdenni","Tadmekka","Awdaghust","Kirina",
 			"Segu","Nioro","Kangaba","Kouroussa","Niagassola","Diara","Kayes","N'teret","Dia","Arawan",
 			"Kiri","Mopti","Narena","Dakadiala","Kukya","Siby","Fadama","Tabon","Siguiri","Kaniana"]
@@ -685,10 +732,7 @@
 		"uniqueName": "Örtöö",
 		"uniqueText": " All land units receive +10% Combat Strength when on a Road. Mounted units receive an additional +10% Combat Strength
 		"
-		"uniques": ["[Mounted] units gain the [Mongol Horde] promotion","[Melee] units gain the [Ortoo] promotion",
-			"[Ranged] units gain the [Ortoo] promotion","[Scout] units gain the [Ortoo] promotion",
-			"[Mounted] units gain the [Ortoo] promotion","[Siege] units gain the [Ortoo] promotion",
-			"[Armor] units gain the [Ortoo] promotion"],
+		"uniques": ["[Mounted] units gain the [Mongol Horde] promotion","+[10]% Strength if within [1] tiles of a [Road]"],
 		"cities": ["Karakorum","Beshbalik","Turfan","Hsia","Old Sarai","New Sarai","Tabriz","Tiflis","Otrar","Sanchu","Kazan",
 			"Almarikh","Ulaanbaatar","Hovd","Darhan","Dalandzadgad","Mandalgovi","Choybalsan","Erdenet","Tsetserieg",
 			"Baruun-Urt","Ereen","Batshireet","Choyr","Ulaangom","Tosontsengel","Altay","Uliastay","Bayanhongor",
