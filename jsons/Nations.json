@@ -139,7 +139,7 @@
 		"uniqueName": "Taxis",
 		"uniqueText": " All military units receive +10% Combat Strength, Mounted units deal +33% more damage when attacking cities, Great Artist is earned 20% faster
 		",
-		"uniques": ["[military] units gain the [Taxis] promotion","[military] units gain the [Porphyrogennetos] promotion","[Great Artist] is earned [20]% faster"]
+		"uniques": ["[military] units gain the [Taxis] promotion","[Mounted] units gain the [Porphyrogennetos] promotion","[Great Artist] is earned [20]% faster"],
 		"cities": ["Constantinople","Thessalonica","Adrianople","Nicaea","Antioch","Nicomedia","Trebizond","Ancyra","Edessa","Sinope",
 			"Amaseia","Cherson","Dyrrachium","Nicopolis","Seleucia","Iconium","Melitene","Bari","Dorylaeum","Amorium",
 			"Koloneia","Tyana","Attalea","Sebasteia","Theodosiopolis","Mesembria","Arcadriopolis","Mount Athos","Dorystolon","Zara"]	

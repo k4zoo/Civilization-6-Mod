@@ -136,8 +136,7 @@
 			"+1 Production once Colonialism is adopted","[+1 Production] once [Plastics] is discovered"],
 	},
 	{
-		"name": "Archaeological Dig",
-		"techRequired": "null"
+		"name": "Archaeological Dig"
 	},
 
 	// Military improvement

@@ -8,8 +8,7 @@
 		"unitType": "Civilian",
 		"movement": 4,
 		"cost": -1,
-		"requiredTech": "null",
-		"uniques": ["Can undertake a trade mission with City-State, giving a large sum of gold and [20] Influence"]
+		"uniques": ["Can undertake a trade mission with City-State, giving a large sum of gold and [20] Influence","Unbuildable"]
 	},
 	{
 		"name": "Warrior Monk",
@@ -17,7 +16,7 @@
 		"movement": 2,
 		"strength": 35,
 		"cost": -1,
-		"requiredTech": "null",
+		"uniques": ["Unbuildable"],
 		"promotions": ["Shadow Strike"],
 		"attackSound": "nonmetalhit"
 	},

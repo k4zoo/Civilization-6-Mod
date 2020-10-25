@@ -378,7 +378,7 @@
 	{
 		"name": "Wine",
 		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Woods","Grassland","Plains"],
+		"terrainsCanBeFoundOn": ["Forest","Grassland","Plains"],
 		"food": 1,
 		"gold": 1,
 		"improvement": "Plantation",

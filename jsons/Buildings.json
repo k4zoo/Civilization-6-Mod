@@ -6,35 +6,31 @@
         "name": "~l1",
         "isNationalWonder": "true",
         "cost": -1,
-        "requiredTech": "null",
-        "uniques": ["Will not be displayed in Civilopedia"],
+        "uniques": ["Will not be displayed in Civilopedia","Unbuildable"],
     },
     {
         "name": "Lighthouse Bonus",
         "isNationalWonder": true,
         "cost": -1,
-        "requiredTech": "null",
         "uniques": ["New [WaterMelee] units start with [15] Experience in this city","New [WaterRanged] units start with [15] Experience in this city",
             "New [WaterSubmarine] units start with [15] Experience in this city","New [WaterAircraftCarrier] units start with [15] Experience in this city",
-            "Will not be displayed in Civilopedia"]
+            "Will not be displayed in Civilopedia","Unbuildable"]
     },
     {
         "name": "Shipyard Bonus",
         "isNationalWonder": true,
         "cost": -1,
-        "requiredTech": "null",
         "uniques": ["New [WaterMelee] units start with [15] Experience in this city","New [WaterRanged] units start with [15] Experience in this city",
             "New [WaterSubmarine] units start with [15] Experience in this city","New [WaterAircraftCarrier] units start with [15] Experience in this city",
-            "Will not be displayed in Civilopedia"]
+            "Will not be displayed in Civilopedia","Unbuildable"]
     },
     {
         "name": "Seaport Bonus",
         "isNationalWonder": true,
         "cost": -1,
-        "requiredTech": "null",
         "uniques": ["New [WaterMelee] units start with [15] Experience in this city","New [WaterRanged] units start with [15] Experience in this city",
             "New [WaterSubmarine] units start with [15] Experience in this city","New [WaterAircraftCarrier] units start with [15] Experience in this city",
-            "Will not be displayed in Civilopedia"]
+            "Will not be displayed in Civilopedia","Unbuildable"]
     },
     {
         "name": "Australia Bonus",
@@ -67,31 +63,29 @@
         "name": "Zeus Bonus",
         "isNationalWonder": true,
         "cost": -1,
-        "requiredTech": "null",
         "uniques": ["+[50]% Production when constructing [Spearman]","+[50]% Production when constructing [Pikeman]",
             "+[50]% Production when constructing [Pike and Shot]","+[50]% Production when constructing [AT Crew]",
-            "+[50]% Production when constructing [Modern AT]","Will not be displayed in Civilopedia"]
+            "+[50]% Production when constructing [Modern AT]","Will not be displayed in Civilopedia",
+            "Unbuildable"]
     },
     {
         "name": "Eiffel Bonus",
         "isNationalWonder": true,
         "cost": -1,
-        "requiredTech": "null",
         "uniques": ["[+1 Culture] from every [Grassland]","[+1 Culture] from every [Plains]","[+1 Culture] from every [Hill]",
             "[+1 Culture] from every [Desert]","[+1 Culture] from every [Tundra]","[+1 Culture] from every [Coast]",
             "[+1 Culture] from every [Lakes]","[+1 Culture] from every [Mountain]",
-            "Will not be displayed in Civilopedia"]
+            "Will not be displayed in Civilopedia","Unbuildable"]
     },
     {
         "name": "Golden Gate Bonus",
         "isNationalWonder": true,
         "cost": -1,
-        "requiredTech": "null",
         "uniques": ["[+2 Culture] from [Grassland] tiles in this city","[+2 Culture] from [Plains] tiles in this city",
             "[+2 Culture] from [Hill] tiles in this city","[+2 Culture] from [Desert] tiles in this city",
             "[+2 Culture] from [Tundra] tiles in this city","[+2 Culture] from [Coast] tiles in this city",
             "[+2 Culture] from [Lakes] tiles in this city","[+2 Culture] from [Mountain] tiles in this city",
-            "Will not be displayed in Civilopedia"]
+            "Will not be displayed in Civilopedia","Unbuildable"]
     },
 
 // Districts
@@ -1015,7 +1009,7 @@
         "requiredBuilding": "Encampment",
         "cannotBeBuiltWith": "Barracks",
         "uniques": ["New [Mounted] units start with [15] Experience in this city","New [Siege] units start with [15] Experience in this city"],
-        "requiredTech": "Bronze Working"
+        "requiredTech": "Horseback Riding"
     },
     {
         "name": "Ordu",
@@ -1029,7 +1023,7 @@
         "cannotBeBuiltWith": "Barracks",
         "uniques": ["New [Mounted] units start with [15] Experience in this city","New [Siege] units start with [15] Experience in this city",
             "All newly-trained [Mounted] units in this city receive the [Ordu] promotion"],
-        "requiredTech": "Bronze Working"
+        "requiredTech": "Horseback Riding"
     },
     {
         "name": "Lighthouse",
