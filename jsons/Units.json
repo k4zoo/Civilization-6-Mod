@@ -1419,7 +1419,7 @@
 		"cost": 600,
 		"requiredTech": "Synthetic Materials",
 		"requiredResource": "Aluminum",
-		"uniques": ["+1 Visibility Range","Ignores terrain cost"],
+		"uniques": ["+1 Visibility Range","All tiles costs 1"],
 		"attackSound": "machinegun"
 	},
 
