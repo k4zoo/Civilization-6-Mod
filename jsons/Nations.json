@@ -69,7 +69,7 @@
 		"uniqueName": "Land Down Under",
 		"uniqueText": " 5% of food is carried over after population increases in coastal cities. Campus, Commercial Hub, Holy Site, and Theater Square receive an additional +1 yield.
 		",
-		"uniques": ["[+1 Science] from every [Campus]","[+1 Gold] from every [Commercial Hub]","[+1 Culture] from every [Holy Site]","[+1 Culture] from every [Theater Square]"],
+		"uniques": ["Gain a free [Australia Bonus] [in every coastal city]","[+1 Science] from every [Campus]","[+1 Gold] from every [Commercial Hub]","[+1 Culture] from every [Holy Site]","[+1 Culture] from every [Theater Square]"],
 		"cities": ["Canberra","Sydney","Launceston","Ballaarat","Perth","Brisbane","Toowoomba","Melbourne","Townsville","Geelong",
 			"Adelaide","Hobart","Bendigo","Broken Hill","Cairns","Newcastle","Maitland","Rockhampton","Wagga Wagga","Wollongong",
 			"Albury","Alice Springs","Bathurst","Queanbeyan","Bundaberg","Coffs Harbor","Darwin","Dremantle","Gladstone","Goulburn","Hervery Bay",

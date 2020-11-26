@@ -710,7 +710,6 @@
 		"movement": 4,
 		"strength": 55,
 		"cost": 220,
-		"requiredTech": "Pottery", // UNIT UPGRADE BUG
 		"obsoleteTech": "Ballistics",
 		"requiredResource": "Iron",
 		"upgradesTo": "Cuirassier",
@@ -740,7 +739,6 @@
 		"strength": 45,
 		"rangedStrength": 55,
 		"cost": 300,
-		"requiredTech": "Pottery", // UNIT UPGRADE BUG
 		"obsoleteTech": "Steel",
 		"upgradesTo": "Battleship",
 		"uniques": ["Requires [Mercenaries]"],
@@ -755,7 +753,6 @@
 		"strength": 40,
 		"rangedStrength": 50,
 		"cost": 240,
-		"requiredTech": "Pottery", // UNIT UPGRADE BUG
 		"obsoleteTech": "Electricity",
 		"upgradesTo": "Submarine",
 		"uniques": ["No movement cost to pillage","Invisible to others","Can attack submarines",
@@ -784,7 +781,6 @@
 		"strength": 40,
 		"rangedStrength": 50,
 		"cost": 280,
-		"requiredTech": "Cartography", // UNIT UPGRADE BUG
 		"obsoleteTech": "Electricity",
 		"upgradesTo": "Submarine",
 		"uniques": ["Invisible to others","Can attack submarines","Requires [Mercantilism]"],
@@ -799,7 +795,6 @@
 		"strength": 40,
 		"rangedStrength": 50,
 		"cost": 240,
-		"requiredTech": "Cartography", // UNIT UPGRADE BUG
 		"obsoleteTech": "Electricity",
 		"upgradesTo": "Submarine",
 		"uniques": ["Invisible to others","Can attack submarines","Requires [Mercantilism]"],
@@ -995,7 +990,6 @@
 		"strength": 70,
 		"rangedStrength": 80,
 		"cost": 430,
-		"requiredTech": "Cartography", // UNIT UPGRADE BUG
 		"obsoleteTech": "Lasers",
 		"requiredResource": "Coal",
 		"upgradesTo": "Missile Cruiser",
@@ -1333,7 +1327,8 @@
 		"obsoleteTech": "Lasers",
 		"requiredResource": "Aluminum",
 		"upgradesTo": "Jet Fighter",
-		"uniques": ["50% Bonus XP gain","Bonus vs Fighter 10%","[100]% chance to intercept air attacks","+2 Visibility Range","Requires [Aerodrome]"],
+		"uniques": ["50% Bonus XP gain","Bonus vs Fighter 10%","[100]% chance to intercept air attacks",
+			"+2 Visibility Range","Requires [Aerodrome]"],
 		"attackSound": "shot"
 	},
 	{
@@ -1399,6 +1394,7 @@
 		"unitType": "WaterAircraftCarrier",
 		"movement": 3,
 		"strength": 65,
+		"rangedStrength": 65,
 		"cost": 540,
 		"requiredTech": "Combined Arms",
 		"uniques": ["Can carry 2 aircraft"],

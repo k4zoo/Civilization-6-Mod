@@ -34,12 +34,11 @@
     },
     {
         "name": "Australia Bonus",
+        "isNationalWonder": true,
         "uniqueTo": "Australia",
         "cost": -1,
-        "cannotBeBuiltWith": "~l1",
-        "providesFreeBuilding": "~l1",
         "uniques": ["Must be next to [Coast]","[5]% of food is carried over after population increases"
-            "Will not be displayed in Civilopedia"]
+            "Will not be displayed in Civilopedia","Unbuildable"]
     },
     {
         "name": "Macedon Bonus",
