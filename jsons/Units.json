@@ -666,7 +666,6 @@
 		"movement": 4,
 		"strength": 48,
 		"cost": 220,
-		"requiredTech": "Pottery", // UNIT UPGRADE BUG
 		"obsoleteTech": "Ballistics",
 		"requiredResource": "Iron",
 		"upgradesTo": "Cuirassier",
