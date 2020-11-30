@@ -152,7 +152,6 @@
 	// Transportation
 	{
 		"name": "Road",
-		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Forest","Jungle","Flood plains","Geothermal Fissure"],
 		"turnsToBuild": 4,
 		"techRequired": "Wheel",
 		"uniques": ["Can be built outside your borders"],
@@ -160,7 +159,6 @@
 	},
 	{
 		"name": "Railroad",
-		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Forest","Jungle","Flood plains","Geothermal Fissure"],
 		"turnsToBuild": 4,
 		"techRequired": "Steam Power",
 		"uniques": ["Can be built outside your borders"]

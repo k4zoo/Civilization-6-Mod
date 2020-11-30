@@ -890,7 +890,8 @@
         "gold": 5,
         "culture": 1,
         "happiness": 1,
-        "uniques": ["Indicates the capital city","Quantity of strategic resources produced by the empire increased by 100%","[-1 Gold] from every [River]"]
+        "uniques": ["Indicates the capital city","Quantity of strategic resources produced by the empire increased by 100%",
+            "Gain a free [City Center] [in every city]","[-1 Gold] from every [River]"]
     },
     {
         "name": "Monument",
