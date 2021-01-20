@@ -138,16 +138,19 @@
 
 	// Special improvement
 	{
-		"name": "Archaeological Dig"
+		"name": "Archaeological Dig",
+		"resourceTerrainAllow": ["Plains","Grassland","Desert","Hill","Tundra","Forest","Jungle","Flood plains"],
 	},
 	{
 		"name": "Trade Route (Domestic)",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Forest","Jungle","Flood plains","Marsh","Oasis"],
 		"food": 1,
 		"production": 1,
 		"uniques": ["Provides [-1] [Trade Route]","Will not be displayed in Civilopedia"]
 	},
 	{
 		"name": "Trade Route (International)",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Forest","Jungle","Flood plains","Marsh","Oasis"],
 		"gold": 3,
 		"uniques": ["Provides [-1] [Trade Route]","Will not be displayed in Civilopedia"]
 	},
