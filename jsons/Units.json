@@ -44,13 +44,15 @@
 		"cost": 120,
 		"uniques": ["+1 Visibility Range","Founds a new city"]
 	},
-	/*{
+	{
 		"name": "Trader",
 		"unitType": "Civilian",
 		"movement": 2,
 		"cost": 40,
-		"uniques": ["Can construct roads","Requires [Foreign Trade]"]
-	},*/
+		"requiredResource": "Trade Route",
+		"uniques": ["Can construct [Trade Route (Domestic)]","Can construct [Trade Route (International)]",
+			"Trade Routes on Coastal cities provide +3 yield","Requires [Foreign Trade]"]
+	},
 	{
 		"name": "Scout",
 		"unitType": "Scout",

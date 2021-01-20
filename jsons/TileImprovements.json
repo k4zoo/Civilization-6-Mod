@@ -135,8 +135,21 @@
 		"uniques": ["[+1 Production] for each adjacent [Seastead]","[+2 Gold] once [Cartography] is discovered",
 			"+1 Production once Colonialism is adopted","[+1 Production] once [Plastics] is discovered"],
 	},
+
+	// Special improvement
 	{
 		"name": "Archaeological Dig"
+	},
+	{
+		"name": "Trade Route (Domestic)",
+		"food": 1,
+		"production": 1,
+		"uniques": ["Provides [-1] [Trade Route]","Will not be displayed in Civilopedia"]
+	},
+	{
+		"name": "Trade Route (International)",
+		"gold": 3,
+		"uniques": ["Provides [-1] [Trade Route]","Will not be displayed in Civilopedia"]
 	},
 
 	// Military improvement
@@ -237,6 +250,7 @@
 	{
 		"name": "Roman Fort",
 		"uniqueTo": "Rome",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Forest","Jungle","Flood plains","Marsh","Oasis"],
 		"uniques": ["Gives a defensive bonus of [25]%","Can only be built by Roman Legion"]
 	},
 	{
@@ -364,8 +378,9 @@
 	},
 	{
 		"name": "Pa",
-		"uniques": ["Gives a defensive bonus of [25]%",
-			"Deal 30 damage to adjacent enemy units","Can only be built Toa"]
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Forest","Jungle","Flood plains","Marsh","Oasis"],
+		"uniques": ["Gives a defensive bonus of [25]%","Deal 30 damage to adjacent enemy units",
+			"Can only be built Toa"]
 	},
 	{
 		"name": "Pairidaeza",
