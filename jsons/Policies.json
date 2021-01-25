@@ -148,7 +148,7 @@ Wonders enabled:
 				"uniques": [
 "Wonders enabled:
 * Amundsen-Scott Research Station (+20% Science and +10% Production from every City Center, Must be on Snow)",
-					"+[15]% production when constructing [melee units]","+[15]% production when constructing [ranged units]",
+					"+[15]% production when constructing [Melee] units","+[15]% production when constructing [Ranged] units",
 					"[+1 Food] from every [Outback Station]"],
 				"requires": ["Cold War"],
 				"row": 1,

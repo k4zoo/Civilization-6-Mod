@@ -129,7 +129,6 @@
 		"name": "Fishing Boats",
 		"resourceTerrainAllow": ["Coast","Lakes","Reef"],
 		"turnsToBuild": "6",
-		//"terrainsCanBeBuiltOn": ["Coast","Lakes","Reef"],
 		"food": 1,
 		"techRequired": "Sailing",
 		"uniques": ["[+1 Production] for each adjacent [Seastead]","[+2 Gold] once [Cartography] is discovered",

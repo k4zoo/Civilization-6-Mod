@@ -9,30 +9,6 @@
         "uniques": ["Will not be displayed in Civilopedia","Unbuildable"],
     },
     {
-        "name": "Lighthouse Bonus",
-        "isNationalWonder": true,
-        "cost": -1,
-        "uniques": ["New [WaterMelee] units start with [15] Experience in this city","New [WaterRanged] units start with [15] Experience in this city",
-            "New [WaterSubmarine] units start with [15] Experience in this city","New [WaterAircraftCarrier] units start with [15] Experience in this city",
-            "Will not be displayed in Civilopedia","Unbuildable"]
-    },
-    {
-        "name": "Shipyard Bonus",
-        "isNationalWonder": true,
-        "cost": -1,
-        "uniques": ["New [WaterMelee] units start with [15] Experience in this city","New [WaterRanged] units start with [15] Experience in this city",
-            "New [WaterSubmarine] units start with [15] Experience in this city","New [WaterAircraftCarrier] units start with [15] Experience in this city",
-            "Will not be displayed in Civilopedia","Unbuildable"]
-    },
-    {
-        "name": "Seaport Bonus",
-        "isNationalWonder": true,
-        "cost": -1,
-        "uniques": ["New [WaterMelee] units start with [15] Experience in this city","New [WaterRanged] units start with [15] Experience in this city",
-            "New [WaterSubmarine] units start with [15] Experience in this city","New [WaterAircraftCarrier] units start with [15] Experience in this city",
-            "Will not be displayed in Civilopedia","Unbuildable"]
-    },
-    {
         "name": "Australia Bonus",
         "isNationalWonder": true,
         "uniqueTo": "Australia",
@@ -57,15 +33,6 @@
         "providesFreeBuilding": "~l1",
         "uniques": ["Must be on [River]","+[50]% production when building [Buildings] in this city",
             "Will not be displayed in Civilopedia"]
-    },
-    {
-        "name": "Zeus Bonus",
-        "isNationalWonder": true,
-        "cost": -1,
-        "uniques": ["+[50]% Production when constructing [Spearman]","+[50]% Production when constructing [Pikeman]",
-            "+[50]% Production when constructing [Pike and Shot]","+[50]% Production when constructing [AT Crew]",
-            "+[50]% Production when constructing [Modern AT]","Will not be displayed in Civilopedia",
-            "Unbuildable"]
     },
     {
         "name": "Eiffel Bonus",
@@ -278,7 +245,7 @@
         "gold": 3,
         "food": 1,
         "uniques": ["[+1 Production] from [Trade Route (Domestic)] tiles in this city","[+3 Gold] from [Trade Route (International)] tiles in this city",
-        	"[+1 Gold] from [Water resource] tiles in this city","+[50]% production when building [naval units] in this city",
+        	"[+1 Gold] from [Water resource] tiles in this city","+[50]% production when building [water units] in this city",
         	"+[50]% production when building [Settler] in this city","Connects trade routes over water","Must be next to [Coast]",
         "Cost increases by [5] per owned city"],
         "requiredTech": "Celestial Navigation"
@@ -1062,8 +1029,7 @@
         "cost": 120,
         "gold": 1,
         "food": 1,
-        "providesFreeBuilding": "Lighthouse Bonus",
-        "uniques": ["Requires a [Harbor] in this city","New Naval units start with 15 Experience in this city",
+        "uniques": ["Requires a [Harbor] in this city","New [Water] units start with [15] Experience in this city",
         	"[+1 Food] from [Coast] tiles in this city","[+1 Food] from [Lake] tiles in this city",
         	"Provides [1] [Trade Route]","[10]% of food is carried over after population increases"],
         "requiredTech": "Celestial Navigation"
@@ -1264,9 +1230,8 @@
         "cost": 290,
         "production": 2,
         "maintenance": 2,
-        "providesFreeBuilding": "Shipyard Bonus",
         "uniques": ["Requires a [Harbor] in this city","Requires a [Lighthouse] in this city",
-        	"New naval units start with 15 Experience in this city","[+1 Gold, +1 Production] from [Coast] tiles in this city",
+        	"New [Water] units start with [15] Experience in this city","[+1 Gold, +1 Production] from [Coast] tiles in this city",
         	"[+1 Gold, +1 Production] from [Lakes] tiles in this city"],
         "requiredTech": "Mass Production"
     },
@@ -1349,7 +1314,7 @@
         "cost": 360,
         "happiness": 2,
         "maintenance": 2,
-        "uniques": ["Not displayed as an available construction without [Entertainment Complex]","Requires a [Zoo] in this city",
+        "uniques": ["Not displayed as an available construction without [Entertainment Complex]","Requires a [Arena] in this city",
         	"[+1 Science] from [Forest] tiles in this city","[+1 Science] from [Marsh] tiles in this city",
         	"Requires [Natural History]"]
     },
@@ -1408,9 +1373,8 @@
         "food": 2,
         "gold": 2,
         "maintenance": 2,
-        "providesFreeBuilding": "Seaport Bonus",
         "uniques": ["Requires a [Harbor] in this city","Requires a [Shipyard] in this city",
-        	"New naval units start with 15 Experience in this city","[+2 Gold] from [Coast] tiles in this city",
+        	"New [Water] units start with [15] Experience in this city","[+2 Gold] from [Coast] tiles in this city",
         	"[5]% of food is carried over after population increases"],
         "requiredTech": "Electricity"
     },
