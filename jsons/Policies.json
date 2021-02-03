@@ -8,7 +8,7 @@
 // Row 1s 
 			{
 				"name": "Craftsmanship",
-				"uniques":["+[15]% Production when constructing [Worker]","[+2 Culture] from every [Chemamull]",
+				"uniques":["+[15]% Production when constructing [Worker] units [in all cities]","[+2 Culture] from every [Chemamull]",
 					"Culture cost of adopting new Policies reduced by [25]%"],
 				"requires": ["Code of Laws"],
 				"row": 1,
@@ -16,9 +16,9 @@
 			},
 			{
 				"name": "Military Tradition", 
-				"uniques": ["+[30]% Production when constructing [Heavy Chariot]","+[30]% Production when constructing [Horseman]",
-					"+[30]% Production when constructing [War-Cart]","+[30]% Production when constructing [Saka Horse Archer]",
-					"+[30]% Production when constructing [Varu]","+[30]% Production when constructing [Hetairoi]",
+				"uniques": ["+[30]% Production when constructing [Heavy Chariot] units [in all cities]","+[30]% Production when constructing [Horseman] units [in all cities]",
+					"+[30]% Production when constructing [War-Cart] units [in all cities]","+[30]% Production when constructing [Saka Horse Archer] units [in all cities]",
+					"+[30]% Production when constructing [Varu] units [in all cities]","+[30]% Production when constructing [Hetairoi] units [in all cities]",
 					"Culture cost of adopting new Policies reduced by [25]%"],
 				"requires": ["Craftsmanship"],
 				"row": 1,
@@ -38,9 +38,9 @@ Wonders enabled:
 			},
 			{
 				"name": "Military Training",
-				"uniques": ["+[30]% Production when constructing [Encampment]","+[30]% Production when constructing [Harbor]",
-					"+[30]% Production when constructing [Barracks]","+[30]% Production when constructing [Stable]",
-					"+[30]% Production when constructing [Lighthouse]"],
+				"uniques": ["+[30]% Production when constructing [Encampment] [in all cities]","+[30]% Production when constructing [Harbor] [in all cities]",
+					"+[30]% Production when constructing [Barracks] [in all cities]","+[30]% Production when constructing [Stable] [in all cities]",
+					"+[30]% Production when constructing [Lighthouse] [in all cities]"],
 				"requires": ["Games and Recreation","Military Tradition"],
 				"row": 1,
 				"column": 11
@@ -148,7 +148,7 @@ Wonders enabled:
 				"uniques": [
 "Wonders enabled:
 * Amundsen-Scott Research Station (+20% Science and +10% Production from every City Center, Must be on Snow)",
-					"+[15]% production when constructing [Melee] units","+[15]% production when constructing [Ranged] units",
+					"+[15]% production when constructing [Melee] units [in all cities]","+[15]% production when constructing [Ranged] units [in all cities]",
 					"[+1 Food] from every [Outback Station]"],
 				"requires": ["Cold War"],
 				"row": 1,
@@ -185,14 +185,14 @@ Wonders enabled:
 			},
 			{
 				"name": "State Workforce",
-				"uniques": ["+[10]% Production when constructing [Wonders]","Culture cost of adopting new Policies reduced by [25]%"],
+				"uniques": ["+[10]% Production when constructing [Wonders] [in all cities]","Culture cost of adopting new Policies reduced by [25]%"],
 				"requires": ["Craftsmanship"],
 				"row": 2,
 				"column": 5
 			},
 			{
 				"name": "Early Empire",
-				"uniques": ["+[25]% Production when constructing [Settler]","Culture cost of adopting new Policies reduced by [10]%"],
+				"uniques": ["+[25]% Production when constructing [Settler] units [in all cities]","Culture cost of adopting new Policies reduced by [10]%"],
 				"requires": ["Craftsmanship"],
 				"row": 2,
 				"column": 7
@@ -202,7 +202,7 @@ Wonders enabled:
 				"uniques": [
 "Wonders enabled:
 * Apadana (10 free Envoy units appear)",
-					"City-State Influence degrades at half rate"],
+					"City-State Influence degrades [50]% slower"],
 				"requires": ["State Workforce","Early Empire"],
 				"row": 2,
 				"column": 9
@@ -212,8 +212,8 @@ Wonders enabled:
 				"uniques": [
 "Wonders enabled:
 * Mausoleum at Halicarnassus (+1 Science, +2 Culture from Coast tiles in this city, Worker construction increased 25%)",
-					"+[50]% Production when constructing [Ancient Walls]","+[50]% Production when constructing [Medieval Walls]",
-					"+[50]% Production when constructing [Renaissance Walls]"],
+					"+[50]% Production when constructing [Ancient Walls] [in all cities]","+[50]% Production when constructing [Medieval Walls] [in all cities]",
+					"+[50]% Production when constructing [Renaissance Walls] [in all cities]"],
 				"requires": ["Games and Recreation","Political Philosophy"],
 				"row": 2,
 				"column": 11
@@ -230,9 +230,9 @@ Wonders enabled:
 			},
 			{
 				"name": "Feudalism",
-				"uniques": ["+[20]% Production when constructing [Pike and Shot]","+[20]% Production when constructing [Musketman]",
-					"+[20]% Production when constructing [Crossbowman]","+[20]% Production when constructing [Crouching Tiger]",
-					"+[20]% Production when constructing [Keshig]","+[20]% Production when constructing [Hwacha]",
+				"uniques": ["+[20]% Production when constructing [Pike and Shot] units [in all cities]","+[20]% Production when constructing [Musketman] units [in all cities]",
+					"+[20]% Production when constructing [Crossbowman] units [in all cities]","+[20]% Production when constructing [Crouching Tiger] units [in all cities]",
+					"+[20]% Production when constructing [Keshig] units [in all cities]","+[20]% Production when constructing [Hwacha] units [in all cities]",
 					"[+1 Food] from every [Farm]","[+1 Food] from every [Plantation]","[+1 Food] from every [Stepwell]"],
 				"requires": ["Defensive Tactics"],
 				"row": 2,
@@ -281,7 +281,7 @@ Wonders enabled:
 			},
 			{
 				"name": "Civil Engineering",
-				"uniques": ["+[15]% Production when constructing [Worker]","Tile improvement speed +25%",
+				"uniques": ["+[15]% Production when constructing [Worker] units [in all cities]","Tile improvement speed +25%",
 					"[+1 Production] from every [Kampung]","[+4 Gold] from every [Polder]"],
 				"requires": ["Mercantilism"],
 				"row": 2,
@@ -292,8 +292,8 @@ Wonders enabled:
 				"uniques": [
 "Units enabled:
 * Minas Geraes (100% chance to intercept air attacks, Bonus vs air units 30%, Strength: 70, Ranged strength: 80, Movement: 4",
-					"+[20]% Production when constructing [Field Cannon]","+[20]% Production when constructing [Garde Impériale]",
-					"+[20]% Production when constructing [Redcoat]"],
+					"+[20]% Production when constructing [Field Cannon] units [in all cities]","+[20]% Production when constructing [Garde Impériale] units [in all cities]",
+					"+[20]% Production when constructing [Redcoat] units [in all cities]"],
 				"requires": ["The Enlightenment"],
 				"row": 2,
 				"column": 29
@@ -338,14 +338,14 @@ Wonders enabled:
 			},
 			{
 				"name": "Cold War",
-				"uniques": ["+[30]% production when constructing [naval units]"],
+				"uniques": ["+[30]% production when constructing [Water] units [in all cities] "],
 				"requires": ["Ideology"],
 				"row": 2,
 				"column": 39
 			},	
 			{
 				"name": "Space Race",
-				"uniques": ["+[15]% production when constructing [Spaceship part]"],
+				"uniques": ["+[15]% production when constructing [Spaceship part] [in all cities]"],
 				"requires": ["Cold War"],
 				"row": 2,
 				"column": 41
@@ -373,7 +373,7 @@ Wonders enabled:
 			},
 			{
 				"name": "Information Warfare",
-				"uniques": ["+[30]% Production when constructing [Giant Death Robot]"],
+				"uniques": ["+[30]% Production when constructing [Giant Death Robot] units [in all cities]"],
 				"requires": ["Environmentalism","Globalization","Social Media","Near Future Governance",
 					"Venture Politics","Distributed Sovereignity","Optimization Imperative"],
 				"row": 2,
@@ -465,8 +465,8 @@ Buildings enabled:
 				"uniques": [
 "Wonders enabled:
 * Kotoku-in (4 free Warrior Monk units appear)",
-					"+[20]% Production when constructing [Cavalry]","+[20]% Production when constructing [Cuirassier]",
-					"+[20]% Production when constructing [Rough Rider]"],
+					"+[20]% Production when constructing [Cavalry] units [in all cities]","+[20]% Production when constructing [Cuirassier] units [in all cities]",
+					"+[20]% Production when constructing [Rough Rider] units [in all cities]"],
 				"requires": ["Civil Service","Theology"],
 				"row": 3,
 				"column": 19
@@ -500,7 +500,7 @@ Buildings enabled:
 			},
 			{
 				"name": "Scorched Earth",
-				"uniques": ["-50% cost when purchasing tiles","+[20]% Production when constructing [Settler]"],
+				"uniques": ["-50% cost when purchasing tiles","+[20]% Production when constructing [Settler] units [in all cities]"],
 				"requires": ["Civil Engineering","Nationalism"],
 				"row": 3,
 				"column": 31
@@ -549,7 +549,7 @@ Wonders enabled:
 			},	
 			{
 				"name": "Optimization Imperative",
-				"uniques": ["+[30]% Production when constructing [Wonders]"],
+				"uniques": ["+[30]% Production when constructing [Wonders] [in all cities]"],
 				"requires": ["Globalization","Social Media"],
 				"row": 3,
 				"column": 47

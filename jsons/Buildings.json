@@ -31,7 +31,7 @@
         "cost": -1,
         "cannotBeBuiltWith": "~l1",
         "providesFreeBuilding": "~l1",
-        "uniques": ["Must be on [River]","+[50]% production when building [Buildings] in this city",
+        "uniques": ["Must be on [River]","+[50]% production when constructing [Buildings] [in this city]",
             "Will not be displayed in Civilopedia"]
     },
     {
@@ -212,7 +212,7 @@
         "production": 2,
         "gold": 2,
         "uniques": ["[+1 Production] from [Trade Route (Domestic)] tiles in this city","[+1 Production] from [Trade Route (International)] tiles in this city",
-        	"[5]% of food is carried over after population increases","+[25]% production when building [military units] in this city",
+        	"[5]% of food is carried over after population increases","+[25]% production when constructing [Military] units [in this city]",
         	"Cost increases by [5] per owned city"],
         "requiredTech": "Bronze Working"
     },
@@ -245,8 +245,8 @@
         "gold": 3,
         "food": 1,
         "uniques": ["[+1 Production] from [Trade Route (Domestic)] tiles in this city","[+3 Gold] from [Trade Route (International)] tiles in this city",
-        	"[+1 Gold] from [Water resource] tiles in this city","+[50]% production when building [water units] in this city",
-        	"+[50]% production when building [Settler] in this city","Connects trade routes over water","Must be next to [Coast]",
+        	"[+1 Gold] from [Water resource] tiles in this city","+[50]% production when constructing [Water] units [in this city]",
+        	"+[50]% production when constructing [Settler] units [in this city]","Connects trade routes over water","Must be next to [Coast]",
         "Cost increases by [5] per owned city"],
         "requiredTech": "Celestial Navigation"
     },
@@ -595,7 +595,7 @@
         "cost": 400,
         "gold": 3,
         "uniques": ["[3] free [Archer] units appear","[3] free [Spearman] units appear",
-            "+[50]% Production when constructing [Armor] units","Requires [Military Training]"],
+            "+[50]% Production when constructing [Armor] units [in all cities]","Requires [Military Training]"],
         "quote": "'Upon the head of the god was an olive crown; in his right hand he bore a winged figure of Victory.' –Samuel Augustus Mitchell"
     },
     {
@@ -734,7 +734,7 @@
         "isWonder": true,
         "cost": 920,
         "greatPersonPoints": {"production": 2},
-        "uniques": ["+[100]% production when constructing [naval units]","Must be next to [Coast]",
+        "uniques": ["+[100]% production when constructing [Water] units [in all cities]","Must be next to [Coast]",
         	"Requires a [Industrial Zone] in this city"],
         "requiredTech": "Mass Production",
         "quote": "'The Commonwealth of Venice in their armory have this inscription: 'Happy is that city which in time of peace thinks of war'.' –Robert Burton"
