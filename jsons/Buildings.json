@@ -31,7 +31,7 @@
         "cost": -1,
         "cannotBeBuiltWith": "~l1",
         "providesFreeBuilding": "~l1",
-        "uniques": ["Must be on [River]","[50]% Production when constructing [Buildings] buildings [in this city]",
+        "uniques": ["Must be on [River]","[50]% Production when constructing [All] buildings [in this city]",
             "Will not be displayed in Civilopedia"]
     },
     {
